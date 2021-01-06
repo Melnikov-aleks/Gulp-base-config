@@ -5,7 +5,9 @@
     "main": "gulpfile.js",
     "private": true,
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "gulp": "gulp",
+        "newImg": "img",
+        "clear": "clear"
     },
     "keywords": [
         "Gulp",
@@ -29,6 +31,9 @@
         "gulp-plumber": "^1.2.1",
         "gulp-sass": "^4.1.0",
         "gulp-sourcemaps": "^3.0.0",
-        "gulp-uglify": "^3.0.2"
+        "gulp-uglify": "^3.0.2",
+        "node-sass-tilde-importer": "^1.0.2",
+        "gulp-flatten": "^0.4.0",
+        "gulp-if": "^3.0.0"
     }
 }
